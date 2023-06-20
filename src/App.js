@@ -1,24 +1,23 @@
-import logo from './logo.svg';
-import './App.css';
+import { ThemeProvider } from "@emotion/react";
+import { ColorModeContext, useMode } from "./theme";
+import { CssBaseline } from "@mui/material";
+import { Route, Routes } from "react-router-dom";
+import LandingPage from "./scenes/landingPage";
+import ContactPage from "./scenes/contactPage";
 
 function App() {
+  const [theme, colorMode] = useMode();
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <ColorModeContext.Provider value={colorMode}>
+      <ThemeProvider theme={theme}>
+        <CssBaseline />
+
+        <Routes>
+          <Route index path="/" element={<LandingPage />} />
+          <Route path="contact" element={<ContactPage />} />
+        </Routes>
+      </ThemeProvider>
+    </ColorModeContext.Provider>
   );
 }
 
