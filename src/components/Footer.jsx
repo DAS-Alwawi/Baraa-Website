@@ -1,12 +1,12 @@
-const { Box } = require("@mui/material");
+/*const { Box } = require("@mui/material");
 
 const Footer = () => {
   return (
-    <Box className="bottom-0 absolute">
+    <Box className="hidden sm:block fixed bottom-0 absolute w-full">
       <svg
         xmlns="http://www.w3.org/2000/svg"
         //width="1921"
-        width="120vw"
+        width="100%"
         //height="181.824"
         viewBox="0 0 1921 181.824"
       >
@@ -25,7 +25,7 @@ const Footer = () => {
             transform="translate(0 -16.647)"
             fill="#6d4c72"
             stroke="gold"
-            stroke-width="1"
+            strokeWidth="1"
           />
         </g>
       </svg>
@@ -33,4 +33,4 @@ const Footer = () => {
   );
 };
 
-export default Footer;
+export default Footer;*/

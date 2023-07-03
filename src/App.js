@@ -4,6 +4,9 @@ import { CssBaseline } from "@mui/material";
 import { Route, Routes } from "react-router-dom";
 import LandingPage from "./scenes/landingPage";
 import ContactPage from "./scenes/contactPage";
+import { TextField, Button } from "@mui/material";
+import { useState } from "react";
+import SkillsPage from "./scenes/skillsPage";
 
 function App() {
   const [theme, colorMode] = useMode();
@@ -15,6 +18,7 @@ function App() {
         <Routes>
           <Route index path="/" element={<LandingPage />} />
           <Route path="contact" element={<ContactPage />} />
+          <Route path="skills" element={<SkillsPage />} />
         </Routes>
       </ThemeProvider>
     </ColorModeContext.Provider>

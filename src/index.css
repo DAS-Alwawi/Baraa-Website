@@ -19,10 +19,31 @@
 
   /* Weitere Angaben wie font-weight, font-style usw. können hier hinzugefügt werden */
 }
+@font-face {
+  font-family: "Roboto-Bold";
+  src: url("./fonts/Roboto-Bold.ttf") format("truetype");
+
+  /* Weitere Angaben wie font-weight, font-style usw. können hier hinzugefügt werden */
+}
+@font-face {
+  font-family: "Roboto-Regular";
+  src: url("./fonts/Roboto-Regular.ttf") format("truetype");
+
+  /* Weitere Angaben wie font-weight, font-style usw. können hier hinzugefügt werden */
+}
+@font-face {
+  font-family: "FontsFree-Net-Kefa-Regular-3";
+  src: url("./fonts/FontsFree-Net-Kefa-Regular-3.ttf") format("truetype");
+
+  /* Weitere Angaben wie font-weight, font-style usw. können hier hinzugefügt werden */
+}
+html,
 body,
-#root {
+#root,
+.app {
   font-family: "Roboto-Light", sans-serif;
   height: 100vh;
+  width: 100%;
 }
 .arabicFont {
   font-family: "NotoSansArabic-Regular";

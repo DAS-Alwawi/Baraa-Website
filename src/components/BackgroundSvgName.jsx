@@ -1,11 +1,11 @@
 const BackgroundSvgName = () => {
   return (
     <svg
-      className=" absolute -z-10 top-52"
+      className="absolute top-64 w-80 -z-10 sm:top-52 sm:w-2/5"
       xmlns="http://www.w3.org/2000/svg"
       // width="740.047"
       // height="384.918"
-      width="40vw"
+      // width="40vw"
       viewBox="0 0 740.047 384.918"
     >
       <g
@@ -23,7 +23,7 @@ const BackgroundSvgName = () => {
               transform="translate(0.123 54.933)"
               fill="none"
               stroke="#a2a0a8"
-              stroke-width="4.17"
+              strokeWidth="4.17"
             />
             <path
               id="Pfad_3"
@@ -32,7 +32,7 @@ const BackgroundSvgName = () => {
               transform="translate(20.41 53.739)"
               fill="gold"
               stroke="gold"
-              stroke-width="1"
+              strokeWidth="1"
             />
             <path
               id="Pfad_4"
@@ -41,7 +41,7 @@ const BackgroundSvgName = () => {
               transform="translate(0.123 35.826)"
               fill="none"
               stroke="#a2a0a8"
-              stroke-width="4.17"
+              strokeWidth="4.17"
             />
             <path
               id="Pfad_5"
@@ -50,7 +50,7 @@ const BackgroundSvgName = () => {
               transform="translate(20.41 34.632)"
               fill="gold"
               stroke="gold"
-              stroke-width="1"
+              strokeWidth="1"
             />
             <path
               id="Pfad_6"
@@ -59,7 +59,7 @@ const BackgroundSvgName = () => {
               transform="translate(0.123 54.933)"
               fill="none"
               stroke="#a2a0a8"
-              stroke-width="4.17"
+              strokeWidth="4.17"
             />
             <path
               id="Pfad_8"
@@ -68,7 +68,7 @@ const BackgroundSvgName = () => {
               transform="translate(0.123 40.603)"
               fill="none"
               stroke="#a2a0a8"
-              stroke-width="4.17"
+              strokeWidth="4.17"
             />
             <path
               id="Pfad_9"
@@ -77,7 +77,7 @@ const BackgroundSvgName = () => {
               transform="translate(10.006 39.408)"
               fill="gold"
               stroke="gold"
-              stroke-width="1"
+              strokeWidth="1"
             />
             <path
               id="Pfad_12"
@@ -86,7 +86,7 @@ const BackgroundSvgName = () => {
               transform="translate(0.123 21.496)"
               fill="none"
               stroke="#a2a0a8"
-              stroke-width="4.17"
+              strokeWidth="4.17"
             />
             <path
               id="Pfad_13"
@@ -95,7 +95,7 @@ const BackgroundSvgName = () => {
               transform="translate(26.652 20.301)"
               fill="gold"
               stroke="gold"
-              stroke-width="1"
+              strokeWidth="1"
             />
             <path
               id="Pfad_16"
@@ -104,7 +104,7 @@ const BackgroundSvgName = () => {
               transform="translate(0.123 16.719)"
               fill="none"
               stroke="#a2a0a8"
-              stroke-width="4.17"
+              strokeWidth="4.17"
             />
             <path
               id="Pfad_17"
@@ -113,7 +113,7 @@ const BackgroundSvgName = () => {
               transform="translate(18.329 15.525)"
               fill="gold"
               stroke="gold"
-              stroke-width="1"
+              strokeWidth="1"
             />
             <path
               id="Pfad_20"
@@ -122,7 +122,7 @@ const BackgroundSvgName = () => {
               transform="translate(0.123 21.496)"
               fill="none"
               stroke="#a2a0a8"
-              stroke-width="4.17"
+              strokeWidth="4.17"
             />
             <path
               id="Pfad_21"
@@ -131,7 +131,7 @@ const BackgroundSvgName = () => {
               transform="translate(12.087 20.301)"
               fill="gold"
               stroke="gold"
-              stroke-width="1"
+              strokeWidth="1"
             />
             <path
               id="Pfad_22"
@@ -140,7 +140,7 @@ const BackgroundSvgName = () => {
               transform="translate(5.845 53.739)"
               fill="gold"
               stroke="gold"
-              stroke-width="1"
+              strokeWidth="1"
             />
             <path
               id="Pfad_23"
@@ -149,7 +149,7 @@ const BackgroundSvgName = () => {
               transform="translate(-1.474 127.393)"
               fill="none"
               stroke="#a2a0a8"
-              stroke-width="4.17"
+              strokeWidth="4.17"
             />
             <g id="Gruppe_5" data-name="Gruppe 5">
               <path
@@ -159,7 +159,7 @@ const BackgroundSvgName = () => {
                 transform="translate(243.826 184.554)"
                 fill="gold"
                 stroke="gold"
-                stroke-width="1"
+                strokeWidth="1"
               />
               <path
                 id="Pfad_25"
@@ -168,7 +168,7 @@ const BackgroundSvgName = () => {
                 transform="translate(92.826 184.554)"
                 fill="gold"
                 stroke="gold"
-                stroke-width="1"
+                strokeWidth="1"
               />
               <path
                 id="Pfad_26"
@@ -177,7 +177,7 @@ const BackgroundSvgName = () => {
                 transform="translate(-102.174 184.554)"
                 fill="gold"
                 stroke="gold"
-                stroke-width="1"
+                strokeWidth="1"
               />
               <path
                 id="Pfad_27"
@@ -186,7 +186,7 @@ const BackgroundSvgName = () => {
                 transform="translate(288.826 125.554)"
                 fill="gold"
                 stroke="gold"
-                stroke-width="1"
+                strokeWidth="1"
               />
             </g>
           </g>

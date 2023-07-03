@@ -285,30 +285,30 @@ export const themeSettings = (mode) => {
         fontFamily: "AbrilFatface-Regular",
         fontSize: 20,
       },
-      fontFamily: "Montserrat",
+      fontFamily: "FontsFree-Net-Kefa-Regular-3",
       fontSize: 12,
       h1: {
-        fontFamily: "Montserrat",
+        fontFamily: "FontsFree-Net-Kefa-Regular-3",
         fontSize: 40,
       },
       h2: {
-        fontFamily: "Montserrat",
+        fontFamily: "AbrilFatface-Regular",
         fontSize: 32,
       },
       h3: {
-        fontFamily: "Montserrat",
+        fontFamily: "FontsFree-Net-Kefa-Regular-3",
         fontSize: 24,
       },
       h4: {
-        fontFamily: "Montserrat",
+        fontFamily: "FontsFree-Net-Kefa-Regular-3",
         fontSize: 20,
       },
       h5: {
-        fontFamily: "Montserrat",
+        fontFamily: "FontsFree-Net-Kefa-Regular-3",
         fontSize: 16,
       },
       h6: {
-        fontFamily: "Montserrat",
+        fontFamily: "FontsFree-Net-Kefa-Regular-3",
         fontSize: 14,
       },
     },
